@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        textarea { 
+            resize: vertical /*or none ore both>*/;
+            overflow: scroll;
+        }
+        legend {text-align: center;}
+        form {width: 500px;}
+        button { width: 40px;
+        height: 40px;
+    }
+    </style>
+</head>
+<body>
+    <form method="get" novalidate>
+        <fieldset><legend>User data</legend>
+        <label for="user-login">user name</label>
+        <input type="text" name="user-login" id="user-login" placeholder="user name" autocomplete="on" list="names"><br>
+        <label for="user-pass">Password</label>
+        <input type="password" name="user-pass" id="user-pass" autofocus maxlength="12"><br>
+        <label for="user-email">email</label>
+        <input type="email" id="user-email" name="user-email" value="@gmail.com"><br></fieldset>
+        <input type="submit" value="submit me">
+        <select name="cars" id="cars" multiple size="3">
+            <optgroup label="German cars">
+                <option value="bmw">Bmw type</option>
+                <option value="audi">audi</option>
+                <option value="mb">mercedes</option>
+            </optgroup>
+            <optgroup label="Japan cars">
+                <option value="nissan">Bmw type</option>
+                <option value="hondai">audi</option>
+                <option value="lexus">mercedes</option>
+            </optgroup>
+            
+        </select><br>
+        <textarea name="message" id="" cols="10" rows="10" readonly >sdssdds</textarea><br><br>
+        <datalist id="names">
+            <option value="Artjom">Artjom</option>
+            <option value="Roman">Roman</option>
+        </datalist>
+        <span>Newsletter</span>
+        <input type="checkbox" name="news" id="news" value="true" checked><br>
+        CSS<input type="radio" name="proglang" id="css" value="css" checked>
+        HTML<input type="radio" name="proglang" id="html" value="html">
+        JS<input type="radio" name="proglang" id="js" value="js">
+        <input type="color" name="color" id="color">
+        <input type="date" name="date" id="date" min="2023-12-12" max="2024-1-5"><br><br>
+        <input type="datetime-local" name="datetime-local" id="datetime-local"><br><br>
+        <input type="file" multiple>
+        <input type="hidden" name="limit" value="20">
+        <input type="image" src="https://picsum.photos/200/200" >
+        <input type="number" name="number" id="number" step="0.1">
+        <input type="range" name="range" id="range" step="20"><br>
+        <button type="submit"></button>
+    </form>
+</body>
+</html>
+<!-- homework ФОРМА РЕГИСТРАЦИИ НА КАКОЕ ТО МЕРОПРИЯТИЕ  -->

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="my1.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {box-sizing: border-box;
+    padding: 0;
+    margin: 10px;
+    }
+        table, th, td { border: 5px solid black; border-collapse: collapse; }
+        /* th, td { background-color: pink;
+            padding: 10px
+} */
+table {width: 400px}
+div {width: 400px;
+height: 400px;
+background-color: rgb(107, 206, 231);
+border: 20px solid brown }
+ol, ul { margin: 20px;}
+            #navi li { display:inline-block ;
+            width: 200px;
+        padding: 15px;
+    background-color: red;}
+    </style>
+</head>
+<body>
+    <table width="100%">
+        <caption>My table</caption>
+        <thead>
+        <tr>
+             <th>one</th> <!--th-table header -->
+            <th>two</th>
+            <th>three</th>
+        </thead>
+        </tr>
+        <tbody>
+            <colgroup>
+                <col span="1" style="background-color: red;">
+                <col span="2" style="background-color: pink;">
+            </colgroup>
+            <tr>
+                <td colspan="2">One</td>
+                <td>Two</td>
+            </tr>
+            <tr>
+                <td>One</td>
+                <td>Two</td>
+                <td>Three</td>
+            </tr>
+            <tr>
+                <td rowspan="2">One</td>
+                <td>Two</td>
+                <td>Three</td>
+            </tr>
+            <tr>
+                <td>Two</td>
+                <td>Three</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    <div></div>
+    <ol type="1" start="10">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li><ol type="1">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+    </ol></li>
+    </ol>
+    <ul type="square" id="navi">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <span>Hello world</span>
+    <dl>
+        <dt>
+            Oranges
+            <dd> Oranges are high on vitamin C</dd>
+            <dt> bananas are sweet
+                <dd>bananas are yellow</dd>
+            </dt>
+        </dt>
+    </dl>
+</body>
+</html>
+<!-- tribute page- HOMEWORK -->

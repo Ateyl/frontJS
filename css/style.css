@@ -1,0 +1,22 @@
+body {background-color: aquamarine;}
+/* */
+div section p {
+    color: red;
+}
+div > p {background-color: white;}
+/* div > p only to a nearest child */
+div ~ p {
+    text-decoration: underline dotted;
+}
+div + p {
+    font-size: 30px;
+}
+/* right AFTER div- next sibling */
+div:hover p {background-color: blue;}
+div p:first-child { border: 3px solid }
+p:nth-child(3) { border: 3px double magenta;}
+/* odd even нечетный четный */
+.last::before,
+.last::after
+{content: "***";}
+p:lang(ee) { display: none;}

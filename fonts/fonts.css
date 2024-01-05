@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Rubik Broken Fax';
+    src: url('../fonts/RubikBrokenFax-Regular.ttf')
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 5px red, -2px -2px 5px blue, 3px -4px 5px green;
+}
+p {
+    font-family: 'Rubik Broken Fax';
+    text-align: justify;
+    text-align-last: end;
+    /* direction: rtl;
+    unicode-bidi: bidi-override ; */
+    /* text-decoration-style: double;   */
+    /*text-decoration-line: underline;*/  /*обязательно для указания к чему применять свойтсво*/
+    /* text-decoration-color: red;
+    text-decoration-thickness: 1px;
+    text-transform: uppercase;
+    text-transform: capitalize; */
+    text-indent: 100px;
+    letter-spacing: 5px;
+    line-height: 2;
+    word-spacing: 20px;
+    /* white-space: nowrap; */
+    /* text-shadow: 2px 2px 5px red; */
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+    font: /* shorthand лучше не использовать.*/
+}
+span {
+    text-decoration: line-through;
+}
+a {
+    text-decoration: none;
+}

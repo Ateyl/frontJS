@@ -1,0 +1,67 @@
+html {}
+body {
+/* background-image: url("https://picsum.photos/200/300");
+background-repeat: no-repeat; */
+/* background-position: center 300px; */
+/* height: ;
+background-size:400px 400px ;
+background-attachment: local; */
+/* height: 1000px; */
+font-size: 20px;
+background: rgb(228, 227, 227) url(https://picsum.photos/200/300) no-repeat right top;
+}
+/* .container {height: 2000px ;
+} */
+/* p {
+    border-style: double;
+    border-color: lime;
+    border-width: 3px 4px 5px 8px;
+    border-radius: 30px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+    margin: 0 100px 10px 50px;
+    padding: 50px 10px 30px 50px;
+    
+} */
+.container {
+    outline: 50px solid green;
+    border: solid 20px yellow;
+    margin: 50px;
+    outline-offset: 10px;
+    border-radius: 50px;
+}
+.one, .two { height: 200px;
+width: 200px;
+background-color: brown;
+border: 1px solid black;
+}
+.one {
+    margin: 100px;
+}
+.two {
+    margin: 200px;
+    padding: 30px;
+}
+.three {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(40, 186, 186);
+    margin: 50px auto;
+}
+.text-container {
+    background-color: bisque;
+    width: 50%;
+    min-height: 100px;
+    /* overflow: scroll; */
+}
+.text-container p {
+    font-size: 3rem;
+
+}
+.fullscreen {
+    background-color: blueviolet;
+    background-image: url("https://picsum.photos/1920/1080");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
